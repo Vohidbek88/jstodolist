@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+.container{
+    border-radius: 10px;
+    width: 420px;
+    padding: 10px 12px;
+    height: auto;
+    margin: 10px auto;
+    background:lightcoral;
+
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: wheat;
+    padding: 10px 0;
+}
+#inputHand{
+    width: 300px;
+    font-size: 30px;
+    padding: 5px;
+    outline: none;
+    color: brown;
+    border: 1px solid blue;   
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#inputHand:focus{
+    box-shadow: 10px 10px 10px lightblue;
+}
+.red{
+    color: red;
+}
+.add{
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    background-color: chartreuse;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btndel{
+    background-color: rgba(255, 208, 0, 0.548);
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 4px 12px;
+    text-align: end;
+
+}
+.btnedit{
+    background-color: white;
+    padding: 4px 12px;
+    color: rgb(3, 3, 3);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: end;
+
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.lists{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 24px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.inpedit{
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid red;
+    outline: none;
+}
+.btnsave{
+    padding: 5px 0;
+    font-size: 18px;
+    color: green;
+    background-color: white;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.check{
+    width: 20px;
+    height: 20px;
+}
+@media(max-width:768px){
+    .container{
+width: 320px;
+    }
+    #inputHand{
+        width: 250px;
+    }
+    .add{
+        margin-left: 3px;
+        padding: 5px 8px;
+    }
+    .inpedit{
+        width: 200px;
+        margin-left: 10px;
+    }
+}
